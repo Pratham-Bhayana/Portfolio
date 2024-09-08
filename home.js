@@ -1,4 +1,3 @@
-
 gsap.registerPlugin(ScrollTrigger)
 
 gsap.from('.logo div',{
@@ -90,7 +89,6 @@ gsap.from('.pyramid' ,{
 })
 
 gsap.fromTo('.hand',{
-    
     scale:.2,
     opacity:0,
     skewY:30
@@ -99,7 +97,7 @@ gsap.fromTo('.hand',{
     opacity:1,
     skewY:0,
     duration:1,
-    delay:0.5,
+    delay:.5,
     scrollTrigger:'.hand'
 })
 
@@ -123,7 +121,6 @@ gsap.utils.toArray('.line').forEach(line=>{
 gsap.utils.toArray('.rotation').forEach(rotate=>{
     gsap.fromTo(rotate,{
         opacity:0,
-        rotation:350,
         scale:.2
     },{
         opacity:1,
