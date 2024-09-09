@@ -121,6 +121,7 @@ section {
 }
 
 p {
+
     line-height: 28px;
     font-size: 18px;
     font-weight: 400;
@@ -130,7 +131,19 @@ p {
 }
 
 .ok{
+    
+
     font-size: 16px;
+
+
+    
+    
+}
+
+    .ok span {
+
+        width: 100%;
+
 }
 
 .p {
@@ -356,6 +369,10 @@ footer {
 
 
 @media (max-width: 480px) {
+    body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     /* Hide the desktop navigation bar and logo for mobile view */
     .nav-bar {
         /* display: none; */
@@ -406,7 +423,8 @@ footer {
     }
 
     /* Adjust paragraph font sizes for mobile view */
-    p {
+    p { 
+    
         font-size: 14px;
         max-width: 100%;
         line-height: 1.6;

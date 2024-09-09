@@ -26,6 +26,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     gsap.from(".intro",{
+        ease: 'power2.out',
+        y :20,
+        stagger : 0.05,
         opacity : 0,
         duration : 1,
     });

@@ -137,13 +137,15 @@ a:hover {
     display: flex;
 }
 input{
+    gap: 40px;
     background-color: #3C3D37;
     font-size: 20px;
-    color: rgb(113, 144, 243);
+    color: #2d9687;
     width: 400px;
     height: 8vh;
     border-radius: 2px;
     padding: 5%;
+    margin-bottom: 20px;
     border: 1px solid #697565;
     
 }
@@ -194,8 +196,11 @@ button::after {
 }
 
 @media (max-width : 468px){
-    .nav-bar{
+    .logo{
         display: none;
+    }
+    .nav-bar{
+        /* display: none; */
     }
     .head{
         margin-top: 10%;

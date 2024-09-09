@@ -73,13 +73,13 @@ a:hover {
 }
 
 .heading{
-    color: #987D9A;
+    color: #2d9687;
     margin-top: 5%;
     text-align: center;
 }
 
 .heading p{font-style: italic;
-color:#CADABF}
+color:#626b6a}
 
 .layout{
     margin-top: 3%;
@@ -89,7 +89,7 @@ color:#CADABF}
 }
 
 .intro{
-    color:#BC9F8B;
+    color:#9e9a9a;
 }
 #title a{
     font-size: 20px;
@@ -103,7 +103,7 @@ color:#CADABF}
     padding: 14px 14px;
     width: 80%;
 
-}
+}   
 
 .right-side{
     width: 20%;
@@ -158,7 +158,7 @@ color:#CADABF}
 }
 
 @media (max-width : 468px){
-    header{
+    .logo{
         display: none;
     }
 
@@ -176,11 +176,12 @@ color:#CADABF}
     }
 
     .left-side{
-        width: 65%;
+        width: 100%;
     }
 
     .right-side{
         width: 35%;
+        display: none;
     }
 
     .date{
