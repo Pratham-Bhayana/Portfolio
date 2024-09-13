@@ -46,16 +46,14 @@
         <div class="right-side">
             <div class="title">Drop a message</div>
             <div class="msg-box">
+                <!-- Ensure netlify attribute is added to the form element -->
                 <form netlify>
-                <input class="input" placeholder="Your Name" type="text" required>
-                <input class="input" placeholder="Your Email" type="email" required>
-                <input class="msg" placeholder="Your Message" type="text" required>
-                <button type="submit">Send</button>
+                    <input class="input" placeholder="Your Name" type="text" name="name" required>
+                    <input class="input" placeholder="Your Email" type="email" name="email" required>
+                    <textarea class="msg" placeholder="Your Message" name="message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
             </div>
-
-          
-        </form>
-            
         </div>
         
     </section>
