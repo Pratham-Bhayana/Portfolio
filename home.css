@@ -583,9 +583,3 @@ footer {
         display: none;
     }
 }
-
-@media (max-width : 600px){
-    .left-side{
-        width: 400px;
-    }
-}
