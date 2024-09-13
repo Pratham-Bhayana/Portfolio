@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
-    <title>Projects - PB </title>
+    <title>Projects - PB</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="projects.css">
 </head>
@@ -13,15 +13,12 @@
     <header>
         <nav class="nav-bar">
             <div class="logo">
-                
                 <div>Pratham Bhayana</div>
             </div>
-            
             <ul class="menu-items">
                 <li><a href="index.html">Home</a></li>
-                
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>  
@@ -34,19 +31,23 @@
             <div class="cards-container">
                 <div class="cards" id="one">
                     <div class="preview">
-                        <img src="/img/thumbnail-mm.png" class="c-1">
+                        <!-- Make sure the path and case are correct -->
+                        <img src="./img/thumbnail-mm.png" class="c-1" alt="Magic Music Project Thumbnail">
                     </div>
                 </div>
 
                 <div class="cards" id="two">
-                    <img src="/img/thumbnail-ansl.png" class="c-2">
+                    <!-- Ensure file name and path match exactly (case-sensitive) -->
+                    <img src="./img/thumbnail-ansl.png" class="c-2" alt="ANSL Project Thumbnail">
                 </div>
 
                 <div class="cards" id="three">
-                    <img src="/img/thumbnail-BLOG.png" class="c-2">
+                    <!-- Check file extension and name -->
+                    <img src="./img/thumbnail-BLOG.png" class="c-2" alt="Blog Project Thumbnail">
                 </div>
 
                 <div class="cards" id="four">
+                    <!-- American project card (no image here) -->
                     American
                 </div>
             </div>
@@ -54,6 +55,7 @@
     </section>
 </body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" ></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
 <script src="project.js"></script>
+</html>
