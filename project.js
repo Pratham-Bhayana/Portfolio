@@ -88,3 +88,15 @@ scrollTrigger :{
 }
 
 })
+
+const cards = document.querySelectorAll('.cards'); // Select individual cards
+
+cards.forEach(card => {
+  card.addEventListener('click', () => {
+    const img = card.querySelector('img[data-url]'); // Find the image inside each card
+    const url = img.getAttribute('data-url'); // Get the data-url attribute value
+    if (url && url !== '#') { // Check if the URL is valid
+      window.open(url, '_blank'); // Open the URL in a new tab
+    }
+  });
+});
