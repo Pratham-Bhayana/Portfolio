@@ -373,27 +373,25 @@ footer {
         max-width: 100%;
         overflow-x: hidden;
     }
-    /* Hide the desktop navigation bar and logo for mobile view */
-    .nav-bar {
-        /* display: none; */
-    }
 
-    /* Adjust the container to use flexbox in column direction for mobile */
+
+
+
     .container {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 20px; /* Adjust spacing between elements */
+        gap: 20px; 
         max-width: 100%;
     }
 
-    /* Make images responsive and adjust their size */
+
     .gold {
         display: none;
         width: 100%;
-        height: auto; /* Ensure images maintain aspect ratio */
-        max-width: 500px; /* Limit the max width */
-       /* Adjust spacing */
+        height: auto; 
+        max-width: 500px; 
+
     }
 
     .gold2-image{
@@ -414,7 +412,7 @@ footer {
     margin-top: 150%;
    }
 
-    /* Adjust title font sizes for mobile view */
+
     .title h1 {
         
         font-size: 30px;
@@ -422,20 +420,20 @@ footer {
         line-height: 1.2;
     }
 
-    /* Adjust paragraph font sizes for mobile view */
+
     p { 
     
         font-size: 14px;
         max-width: 100%;
         line-height: 1.6;
-        /* margin-bottom: 10px; */
+
     }
 
-    /* Flex adjustments for sections */
+
     section {
         display: flex;
         flex-direction: column;
-        gap: 20px; /* Adjust spacing between sections */
+        gap: 20px; 
         padding: 2rem;
     }
     .left-side{
@@ -452,13 +450,13 @@ footer {
         gap: 20px;
     }
 
-    /* Horizontal scroll for card section */
+
     .card-container{
         margin-top: 200%;
         display: flex;
         flex-direction: column;
         height: 60vh;
-        gap: 20px; /* Spacing between cards */
+        gap: 20px; 
         padding: 1rem;
     }
 
@@ -474,10 +472,10 @@ footer {
     }
 
     .card {
-        /* overflow-x: auto; */
-        flex: 0 0 auto; /* Prevent cards from shrinking */
-        width: 250px; /* Set card width */
-        height: 62vh; /* Allow height to adjust */
+
+        flex: 0 0 auto; 
+        width: 250px; 
+        height: 62vh; 
         border-radius: 5px;
         padding: 1rem;
         cursor: pointer;
@@ -486,15 +484,15 @@ footer {
     }
 
     .img-card {
-        max-width: 100%; /* Ensure image fits inside the card */
-        height: 200vh; /* Maintain aspect ratio */
+        max-width: 100%; 
+        height: 200vh; 
     }
 
     .card:hover {
         background: linear-gradient(to left, #3a7bd5, #00d2ff);
     }
 
-    /* Ensure footer text and logo are centered and responsive */
+
     footer {
         display: flex;
         flex-direction: column;
@@ -516,7 +514,7 @@ footer {
     }
     
     .logo {
-        display: none; /* Hide logo on mobile if necessary */
+        display: none; 
     }
 
     .menu {
@@ -553,7 +551,7 @@ footer {
     }
 
     .gold3-image{
-        /* position: absolute; */
+
         height: 300px;
         width: 300px;
     }
@@ -564,7 +562,7 @@ footer {
 
     .left-side-sec3{
         padding-top: 1320%;
-        /* padding-left: 20px; */
+
     }
 
     .left-side-sec2{
